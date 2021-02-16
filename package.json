@@ -1,0 +1,13 @@
+{
+	"name": "codemirror-minimap",
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": "Marc Espín Sanz <mespinsanz@gmail.com>",
+	"scripts":{
+		"start":"parcel src/index.html"
+	},
+	"devDependencies": {
+		"parcel": "^1.12.4",
+		"codemirror": "^5.59.2"
+	}
+}

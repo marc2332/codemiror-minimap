@@ -1,0 +1,40 @@
+<body>
+	<div id="cm">
+
+	</div>
+</body>
+<style>
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		margin: 0;
+	}
+	#cm {
+		display: flex;
+		border: 1px solid black;
+	}
+	#cm > div:nth-child(1){
+		flex: 1;
+		width: 500px;
+		height: 500px;
+	}
+	#cm > div:nth-child(2) > *{
+		font-size: 3px;
+	}
+	#cm > div:nth-child(2) {
+		width: 120px;
+		height: 500px;
+		background: rgb(0, 0, 0, 0.1);
+	}
+	.minimapScroller{
+		z-index: 100;
+		background: rgba(0,0,0,0.15);
+		position: absolute;
+		width: 100%; 
+		top:0;
+	}
+</style>
+
+<script src="index.js"/>
